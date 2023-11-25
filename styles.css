@@ -1,0 +1,268 @@
+body {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+ 
+}
+.navbar {
+    width: 100%;
+}
+
+.navbar-mobile {
+    display: none;
+  } 
+.nav-item {
+   padding: 0px 5px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Inter', sans-serif;
+  
+}
+.nav-item h3 {
+    position: relative;
+    left: -15%;
+    top: inherit;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Prata', serif;
+}
+
+.nav-item button {
+    position: relative;
+    left: 15%;
+    top: inherit;
+    background-color: rgb(255, 255, 91);
+    padding: 10px 15px;
+    color: black;
+    border: none;
+}
+.nav-item p {
+    margin: 0px 20px;
+    font-size: 17px;
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+}
+
+.ONE {
+    width: 50%;
+    font-size: 16px;
+    padding: 50px 100px 30px;
+}
+.ONE h1 {
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    
+}
+.ONE p {
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+}
+
+.LOGO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    padding: 20px 50px;
+}
+
+.TWO {
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.TWO img {
+    width: 100%;
+ }
+.two-1 {
+    margin-right: 30px;
+    width: 100%;
+}
+.two-2 {
+    margin-left: 30px;
+    width: 100%;
+}
+h2 {
+    font-family: 'Prata', serif;
+    font-weight: 300;
+    
+}
+.TWO p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    opacity: 0.6;
+    line-height: 1.5;
+}
+
+.THREE {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 71);
+    padding: 30px 100px;
+    font-size: 20px;
+    
+    
+}
+
+.THREE p {
+    opacity: 0.7;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.three {
+    padding-left: 5px;
+}
+.three-1 {
+    padding-top: 25px;
+}
+.FOUR {
+    padding: 30px 100px;
+    width: 35%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.FOUR button {
+    background-color: rgb(255, 255, 91);
+    padding: 10px 15px;
+    color: black;
+    border: none;
+}
+
+footer {
+    padding: 0.5px 100px; 
+    background-color: rgb(56, 56, 71);
+    font-family: 'Prata', serif;  
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+footer img {
+    margin: 23px 1px;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 550px) and (min-width: 350px) {
+  #navbar {
+    display: none;
+    
+  } 
+  .navbar-mobile {
+    display: block;
+    padding: 10px 30px;
+  } 
+  h3 {
+    font-family: 'Prata', serif;
+  }
+  .nav-item-mobile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .slideshow{
+    background-color: black;
+    z-index: 500;
+    width: 50%;
+    height: 100vh;
+    display: none;
+
+  }
+  .slideshow ul{
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+  }
+  .close {
+     display: none;
+
+  }
+  .ONE {
+    box-sizing: border-box;
+    width: 100%;
+    padding:30px;
+}
+.ONE h1 {
+    font-size: 32px;
+    font-weight: 300;    
+}
+.LOGO {
+    padding: 20px 10px;
+    margin: 0;
+}
+.LOGO img{
+    padding: 10px;
+}
+.TWO {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.TWO img {
+    width: 100%;
+    padding: 10px 0;
+ }
+.two-1 {
+    margin-right: 0px;
+    width: 100%;
+}
+.two-2 {
+    margin-left: 0px;
+    width: 100%;
+}
+.THREE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+       
+}
+
+.three {
+    padding-left: 0px;
+}
+
+
+.FOUR {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.FOUR h2{
+    font-size: 30px;
+    font-family: 'Prata', serif;
+}
+.FOUR button {
+    padding: 10px 15px;
+}
+footer {
+    padding: 0.5px 30px 0; 
+}
+
+footer img {
+    margin: 23px 1px;
+    cursor: pointer;
+}
+}
